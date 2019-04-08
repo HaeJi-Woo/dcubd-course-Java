@@ -19,12 +19,14 @@ while(run) {
 	if(selectNo == 1) {
 		System.out.print("학생수> ");
 		studentNum = scanner.nextInt();
+		
 	}else if(selectNo == 2) {
 		scores = new int[studentNum];
 		for(int i = 0; i < studentNum; i++) {
 			System.out.print("scores["+i+"]>");
 			scores[i] = scanner.nextInt();
 		}
+		
 	}else if(selectNo == 3) {
 		for(int i = 0; i < studentNum; i++) {
 			System.out.println("scores["+i+"]>" + scores[i]);
@@ -46,6 +48,7 @@ while(run) {
 		}
 		avg = sum / studentNum;
 		System.out.println("평균 점수 : " + avg);
+		
 		
 	}else if(selectNo == 5) {
 		run = false;

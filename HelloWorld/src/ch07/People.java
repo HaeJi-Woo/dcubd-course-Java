@@ -1,3 +1,4 @@
+package ch07;
 
 public class People {
 	public String name;

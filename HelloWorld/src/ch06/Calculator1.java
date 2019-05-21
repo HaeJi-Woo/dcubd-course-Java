@@ -1,3 +1,4 @@
+package ch06;
 
 public class Calculator1 {
 static double pi = 3.14159;

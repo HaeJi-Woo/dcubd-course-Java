@@ -1,4 +1,4 @@
-
+package ch06;
 public class MemberServiceExample {
 
 	public static void main(String[] args) {

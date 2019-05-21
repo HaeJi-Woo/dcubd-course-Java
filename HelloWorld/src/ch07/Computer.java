@@ -1,3 +1,4 @@
+package ch07;
 
 public class Computer extends Calculator2 {
 	@Override

@@ -1,9 +1,9 @@
 package ch08;
 
-class Cat implements Soundable {
+public class Cat implements Soundable {
 		@Override
 		public String sound() {
-			return "具克";
+			return new String ("具克");
 		}
 	}
 

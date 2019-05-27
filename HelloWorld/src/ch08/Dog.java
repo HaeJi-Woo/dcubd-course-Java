@@ -1,8 +1,8 @@
 package ch08;
 
-class Dog implements Soundable {
+public class Dog implements Soundable {
 	@Override
 	public String sound() {
-		return "港港";
+		return new String ("港港");
 	}
 }

@@ -14,7 +14,7 @@ public class OracleDao implements DataAccessObject{
 	}
 
 	@Override
-	public void update() {
+	public void update() {  
 		System.out.println("Oracle DB¸¦ ¼öÁ¤");
 	}
 
